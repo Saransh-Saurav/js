@@ -10,7 +10,7 @@
 // console.log(null>=0);//true
 // console.log(null<=0);//true
 //using comparision operator(<,>,<=,>=)null is converted to 0
-//but using the equality operator(==),it actually see if its equal or not thats whay it gives false
+//but using the equality operator(==),it actually see if its equal or not thats why it gives false
 
 
 
