@@ -35,4 +35,10 @@ console.log(mycreatedDate.getTime());//1704429023000 -->convert date to time in 
 
 
 let newDate= new Date();
-console.log( newDate.toLocaleString('default'));//string -->
+console.log( newDate.toLocaleString('default', {
+    weekday:"long"
+}));
+
+//HERE WHEN WE USE newDate.toLocaleString WE CAN CUSTOMIZE IT FEATURES
+
+//WHEN WE DO CTRL+SPACE  WE CAN SEE MANY OPTION FOR SUGGESTION FOR A FUNCTION
